@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapDemo-Quinyx", "SoapDemo-Quinyx\SoapDemo-Quinyx.csproj", "{9D64940D-8A94-46B0-8BF5-068AE4F2D738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D64940D-8A94-46B0-8BF5-068AE4F2D738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D64940D-8A94-46B0-8BF5-068AE4F2D738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D64940D-8A94-46B0-8BF5-068AE4F2D738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D64940D-8A94-46B0-8BF5-068AE4F2D738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27DE4A86-CB82-436D-A602-4D0C1B88D9ED}
+	EndGlobalSection
+EndGlobal

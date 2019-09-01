@@ -16,5 +16,6 @@ namespace SoapDemo_Quinyx.Models
         }
         public TimeSpan StartTime { get; set; }
         public TimeSpan EndTime { get; set; }
+        public string CategoryName { get; set; }
     }
 }

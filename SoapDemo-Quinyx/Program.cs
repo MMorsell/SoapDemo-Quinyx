@@ -8,7 +8,15 @@ namespace SoapDemo_Quinyx
         {
             var soapApi = new SoapApi();
 
-            soapApi.Request();
+            var listOfDrivers = soapApi.Request();
+
+            foreach (var item in listOfDrivers)
+            {
+                Console.WriteLine($"{item.BadgeId} - {item.CategoryName}");
+                Console.WriteLine($"{item.StartTime} - {item.EndTime}");
+                Console.WriteLine();
+                Console.WriteLine();
+            }
         }
     }
 }

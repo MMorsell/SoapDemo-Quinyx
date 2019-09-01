@@ -6,7 +6,9 @@ namespace SoapDemo_Quinyx
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var soapApi = new SoapApi();
+
+            soapApi.Request();
         }
     }
 }
